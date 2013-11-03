@@ -1,20 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
+using Sample.Web.Data;
 
 namespace Sample.Web.Controllers
 {
     public class HomeController : Controller
     {
-        //
-        // GET: /Home/
+        private readonly IRepository repository;
 
-        public ActionResult Index()
+        public HomeController(IRepository repository)
         {
-            return View();
+            this.repository = repository;
         }
 
+        public string Index()
+        {
+            return "Index";
+        }
     }
 }
