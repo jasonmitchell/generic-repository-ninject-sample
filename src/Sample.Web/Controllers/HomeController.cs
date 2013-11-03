@@ -14,6 +14,10 @@ namespace Sample.Web.Controllers
 
         public string Index()
         {
+            //var customers = from c in repository.Query<Customer>()
+            //                where c.FirstName == "Jason"
+            //                select c;
+
             return "Index";
         }
     }
