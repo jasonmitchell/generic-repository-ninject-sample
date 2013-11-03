@@ -1,0 +1,2 @@
+generic-repository-ninject-sample
+=================================
