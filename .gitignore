@@ -12,6 +12,7 @@ TestResults
 *.suo
 *.user
 *.sln.docstates
+*.sln.DotSettings
 
 # Build results
 [Dd]ebug/
@@ -85,9 +86,6 @@ packages
 csx
 *.build.csdef
 
-# Windows Store app package directory
-AppPackages/
-
 # Others
 [Bb]in
 [Oo]bj
@@ -99,6 +97,7 @@ ClientBin
 [Ss]tyle[Cc]op.*
 ~$*
 *.dbmdl
+PublishProfiles
 Generated_Code #added for RIA/Silverlight projects
 
 # Backup & report files from converting an old project file to a newer
